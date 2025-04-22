@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionario JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cuestionario de JavaScript</h1>
+    <div id="quiz-container">
+      <p id="question"></p>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Siguiente</button>
+    </div>
+    <div id="result" class="hidden"></div>
+    <button id="restartBtn" class="hidden" onclick="restartQuiz()">Reiniciar</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
